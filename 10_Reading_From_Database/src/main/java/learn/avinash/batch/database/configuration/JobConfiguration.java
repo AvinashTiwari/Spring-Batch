@@ -20,9 +20,9 @@ import java.util.Map;
 
 import javax.sql.DataSource;
 
-import io.spring.batch.domain.Customer;
-import io.spring.batch.domain.CustomerRowMapper;
 
+import learn.avinash.batch.database.domain.Customer;
+import learn.avinash.batch.database.domain.CustomerRowMapper;
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
